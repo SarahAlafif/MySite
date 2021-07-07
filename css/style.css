@@ -1,14 +1,24 @@
 body{
   margin: 0;
   padding: 0;
+  font-style: italic;
 }
 h1{
   margin: 0;
+  font-size: 100px;
   font-family: 'Sacramento', cursive;
+}
+h2{
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+}
+h3{
+  font-size: 25px;
 }
 h4{
   margin: 0;
   font-family: 'Uchen', serif;
+  font-size: 25px;
 }
 .top-container{
   margin:auto 0;
@@ -27,5 +37,63 @@ h4{
   bottom: 300px;
   left: 300px;
 }
+.profile{
+  text-align: center;
+  background-color: #EDF6E5;
+  padding: 50px;
+}
+#mypic{
+border-radius: 50%;
 
+}
+#creat{
+  font-family:'Uchen', serif;
+  font-size: 25px;
+  font-style: italic;
+
+}
+.skills{
+  padding: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: #EDF6E5;
+}
+.skill-row{
+  padding: 25px;
+}
+.learn{
+  height: 300px;
+}
+.p-skills{
+  font-size: 22px;
+  font-style: italic;
+}
+.contact-me{
+  background-color: #BEAEE2;
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+  border-radius: 50%;
+
+}
+.bottom-container{
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+#bottom{
+  margin: 0;
+  padding: 5px;
+}
+.footer-link{
+  text-decoration: none;
+  color: black;
+}
+.btn{
+  text-decoration: none;
+  border: solid 1px;
+  padding: 7px;
+  color: black;
+  background: white;
+  border-radius:10px;
 }
