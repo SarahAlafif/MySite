@@ -20,6 +20,12 @@ h4{
   font-family: 'Uchen', serif;
   font-size: 25px;
 }
+h5{
+  font-size: 25px;
+  font-family: 'Uchen', serif;
+  margin: 0;
+  font-weight: lighter;
+}
 .top-container{
   margin:auto 0;
   background-color: #B5EAEA;
@@ -72,8 +78,9 @@ border-radius: 50%;
   background-color: #BEAEE2;
   text-align: center;
   margin: 0;
-  padding: 40px;
-  border-radius: 50%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  /*border-radius: 50%;*/
 
 }
 .bottom-container{
@@ -96,4 +103,9 @@ border-radius: 50%;
   color: black;
   background: white;
   border-radius:10px;
+  margin-top: 20px;
+}
+#contact{
+  font-size: 20px;
+  margin-bottom: 50px;
 }
